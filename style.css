@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(jack-b-0iaJQ4WK0BM-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown{
+    text-align: center;
+}
+
+.countdown span{
+    font-size: 1rem;
+}
